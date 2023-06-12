@@ -51,7 +51,8 @@ body{
     background-image: url(img/ui-menu/BackGroundBody.png);
     background-position: 0 0;
     animation: animBody 200s linear infinite;
-    color: var(--Color-default)
+    color: var(--Color-default);
+    cursor: default;
 }
 
 /* Animation du Body */
@@ -585,6 +586,7 @@ header nav #ul-menu .btn-active a:hover{
     height: 100%;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 
 #page-galety .img-galery:hover{
@@ -613,6 +615,8 @@ header nav #ul-menu .btn-active a:hover{
     min-width: 50%;
     padding: 25px;
     border-radius: 15px;
+    color: var(--body-background);
+    text-shadow: 1px 1px 1px var(--white-color), 2px 2px 2px var(--header-footer-border), 3px 3px 3px var(--header-footer-border), 4px 4px 4px var(--header-footer-border);
     box-shadow: 10px 10px 2px #549;
     margin-top: 40px;
 }
@@ -805,13 +809,13 @@ form{ width: 90%; }
     font-size: 16px;
     font-weight: bold;
     background-color: #adaf0a;
-    color: var(--white-color);
-    text-shadow: 4px 4px 0px #000;
+    color: var(--header-footer-border);
+    text-shadow: 1px 1px 1px var(--white-color), 3px 3px 3px #000, 4px 4px 4px #000;
     border: none;
 }
 
 #contact #submit:hover{
-    background-color: var(--white-color);
+    background-color: var(--header-footer-border);
     color: #adaf0a;
     text-shadow: 2px 2px 0px #000;
 }
